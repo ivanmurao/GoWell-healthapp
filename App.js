@@ -1,12 +1,10 @@
-import React, { useEffect } from 'react';
-import { View, Image, StyleSheet, StatusBar, Button } from 'react-native';
+import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import SplashScreen from './screens/SplashScreen';
-import LoginScreen from './screens/LogInScreen';
+import LoginScreen from './screens/LogInSignUp';
 import SignUpPage from './screens/SignUpPage';
 import LogInPage from './screens/LogInPage';
-
 
 const Stack = createStackNavigator();
 
